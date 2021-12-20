@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: #2a607c;
+    height: 0%;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 40px;
+}
+/* seo class style is to change the colour of "seo" in Horiseon */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* To change the style and colour of the links on the top of the webpage */
+a {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px;
+    background-color: #2a607c;
+    margin: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    background-color: violet;
+}
+
+p { 
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Main content refers to the 3 main bars that take up most of the space in between the webpage */
+.main-content {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-content img {
+    max-height: 200px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
