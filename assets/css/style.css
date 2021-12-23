@@ -14,7 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: rgb(54, 54, 247);
     color: #ffffff;
 }
 
@@ -23,30 +23,30 @@ body {
     flex-flow: row;
     flex-wrap: wrap;
     list-style: none;
-    background-color: #2a607c;
+    background-color: rgb(54, 54, 247);
     height: 0%;
     padding: 5px;
     margin: 5px;
     display: inline-block;
     font-size: 40px;
 }
-/* seo class style is to change the colour of "seo" in Horiseon */
+
 .header h1 .seo {
-    color: #d9dcd6;
+    color: rgb(248, 72, 169);
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* To change the style and colour of the links on the top of the webpage */
+
 a {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
     list-style: none;
     padding: 20px;
-    background-color: #2a607c;
+    background-color: rgb(54, 54, 247);
     margin: 5px;
     color: #ffffff;
     text-decoration: none;
@@ -68,7 +68,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/IMG_3633.JPG");
     background-size: cover;
     background-position: center;
 }
@@ -89,7 +89,7 @@ p {
 
 }
 
-/* Main content refers to the 3 main bars that take up most of the space in between the webpage */
+
 .main-content {
     flex: 1 0 0;
     padding: 10px;
@@ -100,7 +100,7 @@ p {
     padding: 50px;
     height: 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: rgb(54, 54, 247);
     color: #ffffff;
 }
 
@@ -113,11 +113,37 @@ p {
     font-size: 36px;
 }
 
+.first-app{
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(54, 54, 247);
+    color: #ffffff;
+
+}
+
+.first-app img{
+    max-height: 300px;
+}
+
+.first-app h2{
+    margin-bottom: 30px;
+    font-size: 46px;
+}
+
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: rgb(252, 93, 212);
 }
 
 .footer h2 {
