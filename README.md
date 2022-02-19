@@ -14,4 +14,4 @@ So basically, we will be making my different kinds of webistes with all sorts of
 
 ## Example picture
 
-<!-- ![Sample of page](/assets/images/food.gif) -->
+![Sample of page](/assets/images/example-2.png)
