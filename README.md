@@ -2,11 +2,11 @@
 
 ## Deployed Website
 
-
+https://sikandersultan.github.io/My-Portfolio/
 
 ## Repo Link
 
-
+https://github.com/sikandersultan/My-Portfolio
 
 ## Why does this website exist?
 
@@ -14,4 +14,5 @@ So basically, we will be making my different kinds of webistes with all sorts of
 
 ## Example picture
 
-<!-- ![Sample of page](/assets/images/food.gif) -->
+![Sample of page](/assets/images/example-2.png)
+![Sample of page](/assets/images/example-1.png)
